@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ab9835-a939-4be5-8632-19d28ed42ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="105">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#747#748#0" expanded="true" />
                 <element signature="e#764#765#0" expanded="true" />
@@ -126,13 +125,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="161">
+              <caret line="96" column="25" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#728#729#0" expanded="true" />
               </folding>
@@ -141,24 +139,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/ast/OpExp.java">
+        <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/MaxArgsVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="43">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>==</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,14 +161,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/MaxArgsVisitor.java" />
-        <option value="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java" />
         <option value="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/Interpreter.java" />
+        <option value="$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="654" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -314,7 +308,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555412579863" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555413041918" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -333,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MaxArgsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.ufpe.cin.if688.test.Main" />
       <module name="ast-simple-interpreter" />
@@ -395,9 +389,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MaxArgsTest" />
         <item itemvalue="JUnit.InterpreterTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InterpreterTest.testOutput2" />
       </list>
     </recent_temporary>
@@ -414,7 +408,7 @@
       <updated>1555339949502</updated>
       <workItem from="1555339950812" duration="2918000" />
       <workItem from="1555346685628" duration="16747000" />
-      <workItem from="1555410973763" duration="1572000" />
+      <workItem from="1555410973763" duration="1803000" />
     </task>
     <servers />
   </component>
@@ -451,7 +445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21237000" />
+    <option name="totallyTimeSpent" value="21468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +460,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/MaxArgsVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -798,18 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/symboltable/IntAndTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -829,11 +804,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="105">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#747#748#0" expanded="true" />
             <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/MaxArgsVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-SimpleInterpreter/ast-simple-interpreter/src/br/ufpe/cin/if688/visitor/IntAndTableVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="25" />
+          <folding>
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
           </folding>
         </state>
       </provider>
