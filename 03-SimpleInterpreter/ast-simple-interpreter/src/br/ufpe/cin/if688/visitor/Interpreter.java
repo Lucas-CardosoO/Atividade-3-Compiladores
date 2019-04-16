@@ -34,7 +34,7 @@ public class Interpreter implements IVisitor<Table> {
 	@Override
 	public Table visit(AssignStm s) {
 		// TODO Auto-generated method stub
-		t = s.getExp().accept(this);
+//		t = s.getExp().accept(this);
 		IntAndTableVisitor a = new IntAndTableVisitor(t);
 
 		return t = new Table(s.getId(), s.getExp().accept(a).result, t);
@@ -53,15 +53,18 @@ public class Interpreter implements IVisitor<Table> {
 		// TODO Auto-generated method stub
 		IntAndTableVisitor a = new IntAndTableVisitor(t);
 
+		IntAndTable aux;
+
 		if(s.getExps() instanceof PairExpList){
-			ExpList myPair = (PairExpList) s.getExps();
-			while (myPair != null) {
-				IntAndTable aux = myPair.accept(a);
-				System.out.println(aux.result);
-				myPair = myPair.getTail();
-			}
+			PairExpList myPair = (PairExpList) s.getExps();
+
+			aux = myPair.getHead().accept(a);
+			System.out.println(aux.result);
+
+			PrintStm recursion = new PrintStm(myPair.getTail());
+			aux.table = this.visit(recursion);
 		} else {
-			IntAndTable aux = s.getExps().accept(a);
+			aux = s.getExps().accept(a);
 			System.out.println(aux.result);
 		}
 
